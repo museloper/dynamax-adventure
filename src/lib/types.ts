@@ -26,6 +26,9 @@ export interface MoveInfo {
   type: PokemonType;
   category: MoveCategory;
   power?: number;
+  accuracy?: number;
+  priority?: number;
+  note?: string;
 }
 
 export interface Move {
@@ -33,6 +36,8 @@ export interface Move {
   type: PokemonType;
   category: MoveCategory;
   power?: number;
+  accuracy?: number;
+  priority?: number;
   note?: string;
 }
 
